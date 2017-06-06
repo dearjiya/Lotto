@@ -1,6 +1,6 @@
 'Ragi & hoon's Lotto Project
 =============
 
-#### Member
+### Member
 * Yang Hoon Ji
 * Jo Hyung Rak
