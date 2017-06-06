@@ -1,5 +1,6 @@
-=== 'Ragi & hoon's Lotto Project
+'Ragi & hoon's Lotto Project
+=============
 
-* Member
-   * Yang Hoon Ji
-   * Jo Hyungrak Rak
+# Member
+* Yang Hoon Ji
+* Jo Hyung Rak
