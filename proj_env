@@ -10,7 +10,10 @@ then
 		export JAVA_HOME=$LOTTO_HOME/jdk/for_mac
 fi
 export CATALINA_HOME=$LOTTO_HOME/was
+export MONGO_PATH=$LOTTO_HOME/mongodb
 export CLASSPATH=.:$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar:$CATALINA_HOME/lib/jsp-api.jar:$CATALINA_HOME/lib/servlet-api.jar 
-PATH=$PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin:$LOTTO_HOME/scripts
+PATH=$PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin:$LOTTO_HOME/scripts:$MONGO_PATH/bin
+
+alias mgStart='mongod --dbpath $LOTTO_HOME/mongodb/data/db'
 echo 'Lotto Project environment set complete.'
 echo '======================================================='
