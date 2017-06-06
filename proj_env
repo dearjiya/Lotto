@@ -1,9 +1,10 @@
 #JAVA & TOMCAT
 echo '======================================================='
 echo 'Directory Changed to' `pwd`
-export JAVA_HOME=~/LottoProject/Lotto/jdk
-export CATALINA_HOME=~/LottoProject/Lotto/was
+export LOTTO_HOME=~/LottoProject/Lotto
+export JAVA_HOME=$LOTTO_HOME/jdk
+export CATALINA_HOME=$LOTTO_HOME/was
 export CLASSPATH=.:$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar:$CATALINA_HOME/lib/jsp-api.jar:$CATALINA_HOME/lib/servlet-api.jar 
-PATH=$PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin
-echo 'Lotto Project set complete.'
+PATH=$PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin:$LOTTO_HOME/scripts
+echo 'Lotto Project environment set complete.'
 echo '======================================================='
